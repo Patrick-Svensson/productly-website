@@ -14,11 +14,6 @@
 
 .feature__heading--attribute {
     text-align: center;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 54px;
-    text-align: center;
-    color: #2F281E;
 }
 
 /* ------ Text ------ */
@@ -35,14 +30,6 @@
     /* identical to box height */
     color: #2F281E;
     padding: 30px 0 13px 0;
-}
-
-.feature__card-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    color: #544837;
 }
 
 /* ------ Icons ------ */

@@ -1,16 +1,31 @@
+/* ---- Professionals section ---- */
+
 .box--professionals {
     height: 580px;
+    justify-content: space-between;
     align-items: center;
 }
 
 .professionals__text {
-    width: ;
+    width: 486px;
 }
+
+.heading--professionals {
+    margin-bottom: 30px;
+}
+
+.sub-heading--professionals {
+    margin-top: 25px;
+}
+
+/* ------- Managers section ------ */
 
 .box--managers {
     height: 520px;
     background-color: teal;
 }
+
+/* ------ Marketers section ------ */
 
 .box--marketers {
     height: 610px;
