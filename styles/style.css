@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
 
+/* ------ Generic ------ */
+
 *,
 *::before,
 *::after {
@@ -17,6 +19,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* ------ Nav-Bar ------ */
+
 .nav {
     position: sticky;
     width: 100vw;
@@ -25,6 +29,8 @@
     justify-content: space-around;
     align-items: center;
 }
+
+/* ------ Logo ------ */
 
 .logo {
     width: 20%;
@@ -39,6 +45,8 @@
 .logo__img:hover {
     transform: scale(1.1);
 }
+
+/* ------ Nav Links ------ */
 
 .nav__block {
     display: flex;
@@ -68,6 +76,8 @@
 .nav--links:hover {
     color: rgba(0, 0, 0, .5);
 }
+
+/* ------ Sign In / Sign Up ------ */
 
 .btn {
     width: 106px;
@@ -100,6 +110,8 @@
 .btn--sign-up:hover {
     background-color: #d88200;
 }
+
+/* ------ Footer ------ */
 
 .footer {
     display: flex;
