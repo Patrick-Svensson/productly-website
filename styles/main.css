@@ -1,6 +1,10 @@
 .box--professionals {
     height: 580px;
-    background-color: tan;
+    align-items: center;
+}
+
+.professionals__text {
+    width: ;
 }
 
 .box--managers {
