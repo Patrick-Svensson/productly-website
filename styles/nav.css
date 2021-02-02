@@ -79,7 +79,13 @@
 
 /* ------ Sign In / Sign Up ------ */
 
-.nav__btn {
+.btn {
+    color: #fff;
+    background-color: #FF9900;
+    border: none;
+}
+
+.btn__nav {
     width: 106px;
     height: 46px;
     font-weight: 600;
@@ -89,39 +95,20 @@
     border-radius: 5px;
 }
 
-.nav__btn--sign-in {
+.btn__nav--sign-in {
     margin-right: 14px;
     color: #173A56;
     background-color: #fff;
     border: 1px solid rgba(23, 46, 151, 0.2);
 }
 
-.nav__btn--sign-in:hover {
-    background-color: rgb(236, 235, 234);
-}
-
-
-.nav__btn--sign-up {
-    color: #fff;
-    background-color: #FF9900;
-    border: none;
-}
-
-.nav__btn--sign-up:hover {
+.btn:hover {
     background-color: #d88200;
 }
 
-/* ------ Header ------ */
-
-.header {
-    width: 1126px;
-    height: 496px;
-    display: flex;
-    margin: 30px auto 0 auto;
-    align-items: center;
+.btn__nav--sign-in:hover {
+    background-color: rgb(236, 235, 234);
 }
-
-
 
 /* ------ Footer ------ */
 

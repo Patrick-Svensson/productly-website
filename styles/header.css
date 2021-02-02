@@ -1,0 +1,82 @@
+.header {
+    width: 1126px;
+    height: 496px;
+    display: flex;
+    margin: 30px auto 0 auto;
+    align-items: center;
+}
+
+/* ------ Heading ------ */
+
+.header--heading {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    /* or 123% */
+    color: #2F281E;
+}
+
+/* ------ Text ------ */
+
+.header--text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #544837;
+    padding: 30px 0 45px 0;
+}
+
+/* ------ Button ------ */
+
+.header__actions {
+    display: flex;
+    align-items: center;
+}
+
+.btn__header {
+    width: 175px;
+    height: 53px;
+}
+
+.btn__header--attributes {
+    background-color: #FF9900;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+/* ------ video Link ------ */
+
+.play-icon {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid  #FF9900;
+    border-bottom: 10px solid transparent;
+    border-radius: px;
+    margin: 0 8px 0 30px;
+  }
+
+.header_video-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #FF9900;
+  }
+
+.header_video-link:hover {
+    color: #d88200;
+  } 
+
+/* ------ Image ------ */
+
+.header-image {
+    margin-left: 50px;
+}
