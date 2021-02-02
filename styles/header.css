@@ -41,19 +41,19 @@
     padding: 30px 30px 45px 0;
 }
 
-/* ------ Button ------ */
+/* ------ Buttons ------ */
 
 .header__actions {
     display: flex;
     align-items: center;
 }
 
-.btn__header {
+.btn__sign-up {
     width: 175px;
     height: 53px;
 }
 
-.btn__header--attributes {
+.btn__sign-up--attributes {
     background-color: #FF9900;
     font-weight: bold;
     font-size: 16px;
