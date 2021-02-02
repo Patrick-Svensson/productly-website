@@ -1,0 +1,20 @@
+.box--feature {
+    flex-wrap: wrap;
+    height: 545px;
+    justify-content: center;
+}
+
+.feature__heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.feature__heading--attribute {
+    text-align: center;
+}
+
+.feature__card {
+    width: 300px;
+    height: 250px;
+}

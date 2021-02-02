@@ -1,0 +1,5 @@
+.box--footer {
+    display: flex;
+    height: 310px;
+    background-color: rgb(241, 241, 150);
+}

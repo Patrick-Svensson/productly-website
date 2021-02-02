@@ -1,0 +1,15 @@
+.box--professionals {
+    height: 580px;
+    background-color: tan;
+}
+
+.box--managers {
+    height: 520px;
+    background-color: teal;
+}
+
+.box--marketers {
+    height: 610px;
+    background-color: rgb(247, 133, 113);
+}
+
