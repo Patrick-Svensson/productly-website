@@ -1,7 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+}
+
+.body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    position: sticky;
+    width: 100vw;
+    height: 78px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+.logo__img {
+    width: 185px;
+    height: 32px;
+}
+
+.logo__img:hover {
+    transform: scale(1.1);
+}
+
+.nav__block {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__items {
+    display: flex;
+}
+
+.nav--items {
+    list-style-type: none;
+}
+
+.nav--links {
+    padding-right: 25px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2F281E;  
+}
+
+.nav--links:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.btn {
+    width: 106px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    border-radius: 5px;
+}
+
+.btn--sign-in {
+    margin-right: 14px;
+    color: #173A56;
+    background-color: #fff;
+    border: 1px solid rgba(23, 46, 151, 0.2);
+}
+
+.btn--sign-in:hover {
+    background-color: rgb(236, 235, 234);
+}
+
+
+.btn--sign-up {
+    color: #fff;
+    background-color: #FF9900;
+    border: none;
+}
+
+.btn--sign-up:hover {
+    background-color: #d88200;
+}
+
+.footer {
+    display: flex;
 }

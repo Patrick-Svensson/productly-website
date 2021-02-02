@@ -6,35 +6,45 @@
     <title>Productly</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
-<body>
+<body class="body">
     <header>
-        <nav>
-            <!-- Logo -->
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <ul>
-            <!-- Navigation -->
-                <li>
-                    <a href=""></a>
-                </li>
-                <li>
-                    <a href=""></a>
-                </li>
-                <li>
-                    <a href=""></a>
-                </li>
-                <li>
-                    <a href=""></a>
-                </li>
-            <!-- Sign In / Sign Up -->
-                <li>
-                    <button></button>
-                </li>
-                <li>
-                    <button></button>
-                </li>
-            </ul>
+        <nav class="nav">
+
+            <!--------- Logo --------->
+            <div class="logo">
+                <a href="#"><img src="images/logo.svg" alt="Productly Logotype" class="logo__img"></a>
+            </div>
+            <!-------- /.Logo -------->
+
+            <!------ Navigation ------>
+            <div class="nav__block">
+                <ul class="nav__items">
+                    <li class="nav--items">
+                        <a href="#" class="nav--links">Product</a>
+                    </li>
+                    <li class="nav--items">
+                        <a href="#" class="nav--links">Customer</a>
+                    </li>
+                    <li class="nav--items">
+                        <a href="#" class="nav--links">Pricing</a>
+                    </li>
+                    <li class="nav--items">
+                        <a href="#" class="nav--links">Resources</a>
+                    </li>
+                </ul>
+                <!----- /.Navigation ----->
+
+                <!---- Sign In Sign Up ---->
+                <ul class="nav__items">
+                    <li class="nav--items">
+                        <button class="btn btn--sign-in">Sign In</button>
+                    </li>
+                    <li class="nav--items">
+                        <button class="btn btn--sign-up">Sign Up</button>
+                    </li>
+                </ul>
+                <!--- /.Sign In Sign Up --->
+            </div>
         </nav>
     </header>
         <!-- Superpower Tools -->
@@ -56,7 +66,7 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="footer">
         <!-- Logo -->
         <img src="" alt="">
         <ul>
