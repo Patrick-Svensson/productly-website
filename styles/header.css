@@ -1,25 +1,3 @@
-/* ------ Generic ------ */
-
-.container {
-    width: 1200px;
-    height: 3640px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-
-.box {
-    width: 1200px;
-    display: flex;
-}
-
-.box--header {
-    height: 500px;
-    align-items: center;
-}
 
 /* ------ Heading ------ */
 

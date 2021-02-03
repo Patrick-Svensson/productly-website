@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.heading--attribute {
+    margin-bottom: 30px;
+}
+
+.sub-heading--attribute {
+    margin-top: 25px;
+}
+
 /* ---- Professionals section ---- */
 
 .box--professionals {
@@ -13,14 +21,6 @@
 
 .professionals__text {
     width: 486px;
-}
-
-.heading--professionals {
-    margin-bottom: 30px;
-}
-
-.sub-heading--professionals {
-    margin-top: 25px;
 }
 
 /* ------- Managers section ------ */
