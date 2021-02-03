@@ -12,16 +12,36 @@
 }
 
 .list-container {
+    width: 33%;
     display: flex;
-    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.list-container__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .text-box {
+    position: relative;
+    top: 30px;
     width: 325px;
     height: 48px;
-    border: 1px solid rgba(23, 46, 151, 0.2);
+    border: 1px solid rgba(23, 46, 151, 0.3);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.text-box::placeholder {
+    color: rgba(23, 46, 151, 0.3);
 }
 
 .link {
     text-decoration: none;
+}
+
+.btn__footer-sign-up {
+    width: 131px;
+    height: 39px;
 }
