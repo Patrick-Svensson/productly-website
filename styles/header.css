@@ -1,3 +1,4 @@
+/* ------ Generic ------ */
 
 .container {
     width: 1200px;
@@ -88,9 +89,3 @@
 .header_video-link:hover {
     color: #d88200;
   } 
-
-/* ------ Image ------ */
-
-.header-image {
-    margin-left: 30px;
-}
