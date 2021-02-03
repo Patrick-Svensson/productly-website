@@ -71,6 +71,10 @@
     margin-left: 30px;
 }
 
+.links--hover:hover {
+    color: #d88200;
+}
+
 /* ------ Nav-Bar ------ */
 
 .nav {
@@ -123,10 +127,6 @@
     line-height: 28px;
     /* identical to box height, or 200% */
     color: #2F281E;  
-}
-
-.nav--links:hover {
-    color: rgba(0, 0, 0, .5);
 }
 
 /* ------ Sign In / Sign Up ------ */
